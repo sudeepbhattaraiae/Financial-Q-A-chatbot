@@ -31,7 +31,7 @@ Question Types Supported:
 Direct Extraction: Retrieves specific values.
 Arithmetic Calculations: Calculates changes or averages.
 Comparative Analysis: Provides comparisons across years or metrics.
-Evaluation: Model performance measured with financial accuracy metrics like R2 score, and NLP metrics like BLEU and ROUGE for text quality.
+Evaluation: Model performance measured with financial accuracy metrics like R2 score, and NLP metrics like BLEU and ROUGE for text quality and f1-score for model training and evaluation.
 Technologies
 Machine Learning: Fine-tuned large language models (LLMs) such as GPT or BERT.
 Framework: PyTorch for training and model development.
