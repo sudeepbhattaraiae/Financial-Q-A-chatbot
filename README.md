@@ -39,7 +39,7 @@ NLP Libraries: Hugging Face for model deployment.
 Backend: Python-based API using FastAPI or Flask.
 Deployment: Cloud platforms like AWS or Google Cloud for scalability.
 # Challenges
-Data Complexity: Financial documents contain varied data structures, making accurate parsing and extraction challenging.
+Data Complexity: The diverse data structures included in financial documents make precise parsing and extraction difficult.
 Domain-Specific Knowledge: Ensuring the chatbot understands nuanced financial terminology and context is crucial for accuracy.
 # Future Work
 Enhanced Personalization: Develop user-specific suggestions based on query history.
