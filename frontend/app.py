@@ -2,7 +2,7 @@ import streamlit as st
 
 # Set page configuration
 st.set_page_config(
-    page_title="MoneyChat",
+    page_title="Financial chatbot",
     page_icon="💵",
     layout="wide",
 )
@@ -25,13 +25,13 @@ def log_sidebar_state_to_console():
     # Inject JavaScript to log the session state to the console
     st.markdown(f"""
         <script>
-        console.log("MoneyChat Sidebar State: ", {sidebar_state_json});
+        console.log("Financial chatbot Sidebar State: ", {sidebar_state_json});
         </script>
     """, unsafe_allow_html=True)
 
 # Sidebar
 with st.sidebar:
-    st.title("MoneyChat Navigation 💬")
+    st.title("Financial chat bot Navigation 💬")
     # Use the session state value to pre-select the sidebar option
     menu_selection = st.radio(
         "Explore the sections:",
@@ -43,9 +43,9 @@ with st.sidebar:
 
 # Main Page Content
 if menu_selection == "Home":
-    st.title("Welcome to MoneyChat 💵🤖")
+    st.title("Welcome to Financial Chatbot 💵🤖")
     st.write("""
-        MoneyChat is your personal financial assistant.
+        Financial Chatbot is your personal financial assistant.
         - Upload your financial data to get started.
         - Ask specific questions to gain insights.
         - Visualize trends and uncover meaningful patterns.
