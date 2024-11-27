@@ -1,0 +1,7 @@
+.env
+Dataset/
+trash_folder/
+pdf_files/
+finqa/
+.vscode/
+__pycache__/
